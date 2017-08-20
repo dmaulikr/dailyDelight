@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AC19A2D1F49514000F9177E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC19A2C1F49514000F9177E /* AppDelegate.swift */; };
+		5AC19A2F1F49514000F9177E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC19A2E1F49514000F9177E /* ViewController.swift */; };
+		5AC19A321F49514000F9177E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC19A301F49514000F9177E /* Main.storyboard */; };
+		5AC19A341F49514000F9177E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC19A331F49514000F9177E /* Assets.xcassets */; };
+		5AC19A371F49514000F9177E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC19A351F49514000F9177E /* LaunchScreen.storyboard */; };
+		5AC19A421F49514000F9177E /* dailyDelightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC19A411F49514000F9177E /* dailyDelightTests.swift */; };
+		5AC19A4D1F49514000F9177E /* dailyDelightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC19A4C1F49514000F9177E /* dailyDelightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AC19A3E1F49514000F9177E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AC19A211F49514000F9177E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AC19A281F49514000F9177E;
+			remoteInfo = dailyDelight;
+		};
+		5AC19A491F49514000F9177E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AC19A211F49514000F9177E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AC19A281F49514000F9177E;
+			remoteInfo = dailyDelight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AC19A291F49514000F9177E /* dailyDelight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyDelight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC19A2C1F49514000F9177E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AC19A2E1F49514000F9177E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AC19A311F49514000F9177E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AC19A331F49514000F9177E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AC19A361F49514000F9177E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AC19A381F49514000F9177E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC19A3D1F49514000F9177E /* dailyDelightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyDelightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC19A411F49514000F9177E /* dailyDelightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyDelightTests.swift; sourceTree = "<group>"; };
+		5AC19A431F49514000F9177E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AC19A481F49514000F9177E /* dailyDelightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyDelightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC19A4C1F49514000F9177E /* dailyDelightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyDelightUITests.swift; sourceTree = "<group>"; };
+		5AC19A4E1F49514000F9177E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AC19A261F49514000F9177E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC19A3A1F49514000F9177E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC19A451F49514000F9177E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AC19A201F49514000F9177E = {
+			isa = PBXGroup;
+			children = (
+				5AC19A2B1F49514000F9177E /* dailyDelight */,
+				5AC19A401F49514000F9177E /* dailyDelightTests */,
+				5AC19A4B1F49514000F9177E /* dailyDelightUITests */,
+				5AC19A2A1F49514000F9177E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AC19A2A1F49514000F9177E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AC19A291F49514000F9177E /* dailyDelight.app */,
+				5AC19A3D1F49514000F9177E /* dailyDelightTests.xctest */,
+				5AC19A481F49514000F9177E /* dailyDelightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AC19A2B1F49514000F9177E /* dailyDelight */ = {
+			isa = PBXGroup;
+			children = (
+				5AC19A2C1F49514000F9177E /* AppDelegate.swift */,
+				5AC19A2E1F49514000F9177E /* ViewController.swift */,
+				5AC19A301F49514000F9177E /* Main.storyboard */,
+				5AC19A331F49514000F9177E /* Assets.xcassets */,
+				5AC19A351F49514000F9177E /* LaunchScreen.storyboard */,
+				5AC19A381F49514000F9177E /* Info.plist */,
+			);
+			path = dailyDelight;
+			sourceTree = "<group>";
+		};
+		5AC19A401F49514000F9177E /* dailyDelightTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AC19A411F49514000F9177E /* dailyDelightTests.swift */,
+				5AC19A431F49514000F9177E /* Info.plist */,
+			);
+			path = dailyDelightTests;
+			sourceTree = "<group>";
+		};
+		5AC19A4B1F49514000F9177E /* dailyDelightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AC19A4C1F49514000F9177E /* dailyDelightUITests.swift */,
+				5AC19A4E1F49514000F9177E /* Info.plist */,
+			);
+			path = dailyDelightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AC19A281F49514000F9177E /* dailyDelight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC19A511F49514000F9177E /* Build configuration list for PBXNativeTarget "dailyDelight" */;
+			buildPhases = (
+				5AC19A251F49514000F9177E /* Sources */,
+				5AC19A261F49514000F9177E /* Frameworks */,
+				5AC19A271F49514000F9177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dailyDelight;
+			productName = dailyDelight;
+			productReference = 5AC19A291F49514000F9177E /* dailyDelight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AC19A3C1F49514000F9177E /* dailyDelightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC19A541F49514000F9177E /* Build configuration list for PBXNativeTarget "dailyDelightTests" */;
+			buildPhases = (
+				5AC19A391F49514000F9177E /* Sources */,
+				5AC19A3A1F49514000F9177E /* Frameworks */,
+				5AC19A3B1F49514000F9177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AC19A3F1F49514000F9177E /* PBXTargetDependency */,
+			);
+			name = dailyDelightTests;
+			productName = dailyDelightTests;
+			productReference = 5AC19A3D1F49514000F9177E /* dailyDelightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AC19A471F49514000F9177E /* dailyDelightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AC19A571F49514000F9177E /* Build configuration list for PBXNativeTarget "dailyDelightUITests" */;
+			buildPhases = (
+				5AC19A441F49514000F9177E /* Sources */,
+				5AC19A451F49514000F9177E /* Frameworks */,
+				5AC19A461F49514000F9177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AC19A4A1F49514000F9177E /* PBXTargetDependency */,
+			);
+			name = dailyDelightUITests;
+			productName = dailyDelightUITests;
+			productReference = 5AC19A481F49514000F9177E /* dailyDelightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AC19A211F49514000F9177E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MayonCreative;
+				TargetAttributes = {
+					5AC19A281F49514000F9177E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26TLK8QKD5;
+						ProvisioningStyle = Automatic;
+					};
+					5AC19A3C1F49514000F9177E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26TLK8QKD5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AC19A281F49514000F9177E;
+					};
+					5AC19A471F49514000F9177E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26TLK8QKD5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AC19A281F49514000F9177E;
+					};
+				};
+			};
+			buildConfigurationList = 5AC19A241F49514000F9177E /* Build configuration list for PBXProject "dailyDelight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AC19A201F49514000F9177E;
+			productRefGroup = 5AC19A2A1F49514000F9177E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AC19A281F49514000F9177E /* dailyDelight */,
+				5AC19A3C1F49514000F9177E /* dailyDelightTests */,
+				5AC19A471F49514000F9177E /* dailyDelightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AC19A271F49514000F9177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC19A371F49514000F9177E /* LaunchScreen.storyboard in Resources */,
+				5AC19A341F49514000F9177E /* Assets.xcassets in Resources */,
+				5AC19A321F49514000F9177E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC19A3B1F49514000F9177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC19A461F49514000F9177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AC19A251F49514000F9177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC19A2F1F49514000F9177E /* ViewController.swift in Sources */,
+				5AC19A2D1F49514000F9177E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC19A391F49514000F9177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC19A421F49514000F9177E /* dailyDelightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AC19A441F49514000F9177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC19A4D1F49514000F9177E /* dailyDelightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AC19A3F1F49514000F9177E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AC19A281F49514000F9177E /* dailyDelight */;
+			targetProxy = 5AC19A3E1F49514000F9177E /* PBXContainerItemProxy */;
+		};
+		5AC19A4A1F49514000F9177E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AC19A281F49514000F9177E /* dailyDelight */;
+			targetProxy = 5AC19A491F49514000F9177E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AC19A301F49514000F9177E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC19A311F49514000F9177E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AC19A351F49514000F9177E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AC19A361F49514000F9177E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AC19A4F1F49514000F9177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AC19A501F49514000F9177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AC19A521F49514000F9177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26TLK8QKD5;
+				INFOPLIST_FILE = dailyDelight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayoncreative.dailyDelight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5AC19A531F49514000F9177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26TLK8QKD5;
+				INFOPLIST_FILE = dailyDelight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayoncreative.dailyDelight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5AC19A551F49514000F9177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26TLK8QKD5;
+				INFOPLIST_FILE = dailyDelightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayoncreative.dailyDelightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dailyDelight.app/dailyDelight";
+			};
+			name = Debug;
+		};
+		5AC19A561F49514000F9177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26TLK8QKD5;
+				INFOPLIST_FILE = dailyDelightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayoncreative.dailyDelightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dailyDelight.app/dailyDelight";
+			};
+			name = Release;
+		};
+		5AC19A581F49514000F9177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26TLK8QKD5;
+				INFOPLIST_FILE = dailyDelightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayoncreative.dailyDelightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = dailyDelight;
+			};
+			name = Debug;
+		};
+		5AC19A591F49514000F9177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 26TLK8QKD5;
+				INFOPLIST_FILE = dailyDelightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayoncreative.dailyDelightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = dailyDelight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AC19A241F49514000F9177E /* Build configuration list for PBXProject "dailyDelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC19A4F1F49514000F9177E /* Debug */,
+				5AC19A501F49514000F9177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AC19A511F49514000F9177E /* Build configuration list for PBXNativeTarget "dailyDelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC19A521F49514000F9177E /* Debug */,
+				5AC19A531F49514000F9177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AC19A541F49514000F9177E /* Build configuration list for PBXNativeTarget "dailyDelightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC19A551F49514000F9177E /* Debug */,
+				5AC19A561F49514000F9177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AC19A571F49514000F9177E /* Build configuration list for PBXNativeTarget "dailyDelightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC19A581F49514000F9177E /* Debug */,
+				5AC19A591F49514000F9177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AC19A211F49514000F9177E /* Project object */;
+}
