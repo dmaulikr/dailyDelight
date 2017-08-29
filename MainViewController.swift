@@ -291,6 +291,9 @@ class MainViewController: UIViewController, UITextFieldDelegate, UNUserNotificat
         
         UIView.animate(withDuration: 5, delay: 0, options: [], animations: { [unowned self] in
             self.tombstoneParentView.frame = CGRect(x: (self.view.frame.width / 2) - (self.tombstoneParentView.frame.width / 2), y: CGFloat(newTombstonePosition), width: self.tombstoneParentView.frame.width, height: self.tombstoneParentView.frame.height)
+            self.tombstoneParentView.shake()
+            }, completion: { _ in
+                self.tombstoneParentView.layer.removeAllAnimations()
         })
     }
     
@@ -356,7 +359,14 @@ class MainViewController: UIViewController, UITextFieldDelegate, UNUserNotificat
     }
 }
 
-
+extension UIView {
+    func shake() {
+        self.transform = CGAffineTransform(translationX: 1, y: 0)
+        UIView.animate(withDuration: 1.5, delay: 0, usingSpringWithDamping: 0, initialSpringVelocity: 0.5, options: [.repeat, .curveEaseIn], animations: {
+            self.transform = CGAffineTransform.identity
+        }, completion: nil)
+    }
+}
 
 
 
